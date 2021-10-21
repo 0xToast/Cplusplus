@@ -36,10 +36,13 @@ int main() {
     cout << endl;
     cout << "Number of Small Rooms: " << numberOfSmallRooms <<endl;
     cout << "Number of Large Rooms: " << numberOfLargeRooms <<endl;
+    
     double serviceCost = (numberOfSmallRooms * pricePerSmallRoom) + (numberOfLargeRooms * pricePerLargeRoom); // Add this variable to remove repeated calculations
+    
     cout << "Service Cost: $" << serviceCost << endl;
     cout << "Tax: $" << serviceCost * salesTax << endl;
     cout << "=====================================" << endl;
+    
     double totalEstimate = (serviceCost + (serviceCost * salesTax)); // Add this variable to remove repeated calculations
     cout << "Total Estimate: $" << totalEstimate << endl;
     cout << "This estimate is valid for " << estimateExpiry << " days only." << endl;
