@@ -1,6 +1,3 @@
-// 51. Section Challange
-// First Attempt
-
 #include <iostream>
 using namespace std;
 
@@ -22,9 +19,10 @@ int main() {
     int numberOfLargeRooms {0};
     cin >> numberOfLargeRooms; 
 
-    const double pricePerSmallRoom {25}; 
-    const double pricePerLargeRoom {35}; 
-    const double salesTax {0.06}; 
+    const double pricePerSmallRoom {25}; //const locks pricePerRoom variable to 30
+    const double pricePerLargeRoom {35}; //const locks pricePerRoom variable to 30
+
+    const double salesTax {0.06}; //const locks pricePerRoom variable to 30
     const int estimateExpiry {30}; // Days
 
     cout << endl;
@@ -37,16 +35,14 @@ int main() {
     cout << "Number of Small Rooms: " << numberOfSmallRooms <<endl;
     cout << "Number of Large Rooms: " << numberOfLargeRooms <<endl;
     
-    double serviceCost = (numberOfSmallRooms * pricePerSmallRoom) + (numberOfLargeRooms * pricePerLargeRoom); // Add this variable to remove repeated calculations
-    
+    double serviceCost = (numberOfSmallRooms * pricePerSmallRoom) + (numberOfLargeRooms * pricePerLargeRoom);
     cout << "Service Cost: $" << serviceCost << endl;
     cout << "Tax: $" << serviceCost * salesTax << endl;
     cout << "=====================================" << endl;
     
-    double totalEstimate = (serviceCost + (serviceCost * salesTax)); // Add this variable to remove repeated calculations
+    double totalEstimate = (serviceCost + (serviceCost * salesTax)); 
     cout << "Total Estimate: $" << totalEstimate << endl;
     cout << "This estimate is valid for " << estimateExpiry << " days only." << endl;
 
-    cout << endl;
     return 0;
 }
