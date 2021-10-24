@@ -23,6 +23,8 @@ int main() {
 
     cout << "\nThe first value is: " << testVar[0] << endl;
     cout << "\nThe first value is: " << testVar[1] << endl;
+    
+    cout << "\nThe value of the testVar itself is: " << testVar << endl; //ouput is the memory address of where the array is located in memory (Example: 0x6ffe00).
 
     return 0; 
 }   
