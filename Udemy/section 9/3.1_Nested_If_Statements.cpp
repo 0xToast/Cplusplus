@@ -22,13 +22,12 @@ WORKOUT Volume of user package
 IF package volume is greater than 100 ADD 10% surcharge (0.10 * 2.50) amount
 IF package volume is grater than 500 ADD 25% surcharge (0.25 * 2.50) to final amount 
 DISPLAY final amount to user. 
-
 */
 
 #include <iostream>
 #include <iomanip>
 
-using namespce std;
+using namespace std;
 
 int main () {
 	
@@ -43,9 +42,9 @@ int main () {
 	const double tier1Surcharge{0.10};
 	const double tier2Surcharge{0.25};
 	
-	cout << "\n=================================="
-	cout << "\n|   Company X Package Calulator. |"
-	cout << "\n=================================="
+	cout << "\n==================================";
+	cout << "\n|   Company X Package Calulator. |";
+	cout << "\n==================================";
 	cout << endl;
 	cout << "\nPlease enter the package length, width and hieght seperated by spaces: ";
 	cin >> length >> width >> height;
@@ -68,12 +67,12 @@ int main () {
 			//DEBUG STATEMENT 
 			//cout << "DEBUG CHECK >>> APPLYING tier2Surcharge" << endl;
 		} else if (packageVolume > tier1Threshold) {
-			packageCost += packageCost * tier2Surcharge;
+			packageCost += packageCost * tier1Surcharge;
 			//DEBUG STATEMENT 
 			//cout << "DEBUG CHECK >>> APPLYING tier1Surcharge" << endl;
 		} 
 		
-		cout << "\n Your package volume is: " << packageVolume << " cubic inches." << endl;
+		cout << "\nYour package volume is: " << packageVolume << " cubic inches." << endl;
 		cout << fixed << setprecision(2); // prints only 2 decimal places in the dollar amount
 		cout << "Total package shippment cost is: $" << packageCost << endl;
 		
