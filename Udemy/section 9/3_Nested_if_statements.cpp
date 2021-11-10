@@ -6,7 +6,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-int main {
+int main (){
 	
 	int score {0};
 
@@ -15,13 +15,13 @@ int main {
 	
 	char letterGrade {}; 
 	
-	if (score >= 0 && <= 100) {
+	if (score >= 0 && score<= 100) {
 		if (score >= 90)
 			letterGrade = 'A';
 		else if (score >= 80)
 			letterGrade = 'B';
-		else if (score >= 70);
-			letterGrade = 'C'
+		else if (score >= 70)
+			letterGrade = 'C';
 		else if (score >= 60)
 			letterGrade = 'D';
 		else 
@@ -29,11 +29,11 @@ int main {
 		
 		cout << "\nYour exam grade is: " << letterGrade << endl;
 		
-		if (letterGrade == 'F')
-			cout << "\nSorry, you must repeat this class."
+		if (letterGrade == 'F') 
+			cout << "\nSorry, you must repeat this class.";
 		else 
-			cout << "\n Congratulations, you have passed!"
-		
+			cout << "\n Congratulations, you have passed!";
+        
 	} else {
 		cout << "\n[!] Error, " << score << " is not in range." << endl;
 	}
