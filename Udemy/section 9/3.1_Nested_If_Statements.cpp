@@ -24,6 +24,8 @@ IF package volume is grater than 500 ADD 25% surcharge (0.25 * 2.50) to final am
 DISPLAY final amount to user. 
 */
 
+// https://stackoverflow.com/questions/1439907/what-are-the-differences-between-if-else-and-else-if
+
 #include <iostream>
 #include <iomanip>
 
