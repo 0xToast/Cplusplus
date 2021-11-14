@@ -46,7 +46,8 @@ int main () {
         //     cout << "\nOption 2 selected - Doing that..." << endl;
         // else if (selection == '3')
         //     cout << "\nOption 3 selected - Doing something else..." << endl;
-        // else if (selection == 'Q' || selection == 'q');
+        // else if (selection == 'Q' || selection == 'q')
+        //     continue;
         // else
         //     cout << "\n[!] Invalid selection - please try again. " << endl;
 
