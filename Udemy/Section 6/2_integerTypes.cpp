@@ -14,7 +14,7 @@ int main () {
     long peopleInUtah{20610000};
     cout << "There are " << peopleInUtah << " that reside in the state of Utah."<< endl; 
     
-    long long peopleOnEarth{7'600'000'000}; // The c++ 14 standard allows us to use ' to break up large numbers.
+    long long peopleOnEarth{7'600'000'000}; // The c++ 14 standard allows us to use ' to breakup large numbers.
     cout << "There are approximately " << peopleOnEarth << " people on Earth." << endl;
     
     long long distanceToAlphaCentauri {9'461'000'000'000'000};
