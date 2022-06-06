@@ -4,7 +4,7 @@
 using namespace std;
 
 // int global {0}; -- In this example, this is a global variable
-// Note: Local variables to presedence over global variables if the same identifier is used
+// Note: Local variables take presedence over global variables if the same identifier is used
 
 int main () { 
 
