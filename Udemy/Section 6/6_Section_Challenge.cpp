@@ -1,5 +1,3 @@
-//Section Challenge 
-
 #include <iostream>
 using namespace std;
 
@@ -27,8 +25,8 @@ int main() {
     cout << " Quotation for Carpet Cleaning Service" << endl;
     cout << "=======================================" << endl;
     cout << "Rates: " << endl;
-    cout << "$" << smallRoomPrice << " per small room (Excluding taxes)" << endl;
-    cout << "$" << largeRoomPrice << " per large room (Excluding taxes)" << endl;
+    cout << "$" << smallRoomPrice << " per small room" << endl;
+    cout << "$" << largeRoomPrice << " per large room" << endl;
     cout << endl;
 
     double totalCost {(numSmallRooms * smallRoomPrice) + (numLargeRooms * largeRoomPrice)};
