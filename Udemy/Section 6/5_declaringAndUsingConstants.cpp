@@ -5,7 +5,6 @@
 using namespace std;
 
 int main() {
-
     cout << "Please enter the amount of rooms to be cleaned: ";
 
     int numberOfRooms {0};
