@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     
-    cout << "\n   Blah's Carpet Cleaning Service" << endl;
-    cout << "==================================" << endl;
+    cout << "\n  Blah's Carpet Cleaning Service" << endl;
+    cout << "===================================" << endl;
     cout << endl;
 
     int numSmallRooms {0};
