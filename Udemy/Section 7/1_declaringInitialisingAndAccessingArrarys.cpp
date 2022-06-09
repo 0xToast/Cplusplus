@@ -1,4 +1,4 @@
-//Section Examples of Arrays
+//Section 7 Examples of Arrays
 
 #include <iostream>
 using namespace std;
