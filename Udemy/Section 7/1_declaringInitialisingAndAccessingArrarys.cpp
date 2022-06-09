@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-    char vowels[] {'a','e','i','o','u'};
+    char vowels[] {'a','e','i','o','u'}; //Compiler automatically determines the amount of elements in [], if no number is specified. In this case it would be 5
     cout << "\nThe first vowel is: " << vowels[0] << endl; //a
     cout << "The last vowel is: " << vowels[4] << endl; //u
     //
 
-    double hiTemps [] {90.1, 89.8, 77.5, 81.6};
+    double hiTemps [] {90.1, 89.8, 77.5, 81.6}; //Compiler automatically determines the amount of elements in [], if no number is specified. In this case it would be 4
     cout << "\nThe first high temp is:" << hiTemps[0] << endl;
 
     hiTemps[0] = 100.7; //Overwrites the first element in hiTemps to 100.7 
