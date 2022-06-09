@@ -8,8 +8,8 @@ using namespace std;
 int main() {
 
     // Initialising vectors
-    vector <char> varChar {'a','e','i','o','u'}; //Self explanitory
-    vector <int> varInt {}; //Self explanitory
-    vector <double> varDouble (365, 80.0); // Initialises 365 doubles at the value of 80.00
-    
+    vector <char> vowels {'a','e','i','o','u'}; //Self explanitory
+    vector <int> testScores{100, 98, 89, 85, 93}; //Self explanitory
+    vector <double> hiTemps (365, 80.0); // Initialises 365 doubles at the value of 80.00
+    return 0;
 }
