@@ -1,23 +1,43 @@
-//This section goes over arrays in C++
+//Section Examples of Arrays
 
 #include <iostream>
 using namespace std;
 
 int main() {
+    char vowels[] {'a','e','i','o','u'};
+    cout << "\nThe first vowel is: " << vowels[0] << endl; //a
+    cout << "The last vowel is: " << vowels[4] << endl; //u
+    //
 
-    int testScores [5] {12,75,65,81,72};
-    
-    cout << endl;
-    cout << "First score at index 0: " << testScores[0] << endl;
-    cout << "Second score at index 1: " << testScores[1] << endl;
-    cout << "Third score at index 2: " << testScores[2] << endl;
-    cout << "Fourth score at index 9: " << testScores[3] << endl;
-    cout << "Fifth score at index 9: " << testScores[4] << endl;
-    cout << endl; 
-    
-    cout << "please add a new value for Second score: ";
+    double hiTemps [] {90.1, 89.8, 77.5, 81.6};
+    cout << "\nThe first high temp is:" << hiTemps[0] << endl;
+
+    hiTemps[0] = 100.7; //overwrites the first element in hiTemps to 100.7 
+    cout << "The first high temp is now: " << hiTemps[0] << endl; //100.7
+    //
+
+    int testScores [5]; // We have specified array of 5 integers but didn't initialise a value for them
+
+    cout << "\nTest score at index 1 is: " << testScores[0] << endl; // Random data
+    cout << "Test score at index 2 is: " << testScores[1] << endl; // Random data
+    cout << "Test score at index 3 is: " << testScores[2] << endl; // Random data
+    cout << "Test score at index 4 is: " << testScores[3] << endl; // Random data
+    cout << "Test score at index 5 is: " << testScores[4] << endl; // Random data
+
+    cout << "\nPlease enter 5 test scores: " << endl;
+    cin >> testScores[0];
+    cin >> testScores[1];
     cin >> testScores[2];
-    cout << "\nSecond score changed to: " << testScores[2] << endl;
+    cin >> testScores[3];
+    cin >> testScores[4];
 
-    return 0; 
-}   
+    cout << "\nTest score at index 1 is: " << testScores[0] << endl; // Displays array element entered at index 0
+    cout << "Test score at index 2 is: " << testScores[1] << endl; // Displays array element entered at index 1
+    cout << "Test score at index 3 is: " << testScores[2] << endl; // Displays array element entered at index 2
+    cout << "Test score at index 4 is: " << testScores[3] << endl; // Displays array element entered at index 3
+    cout << "Test score at index 5 is: " << testScores[4] << endl; // Displays array element entered at index 4
+    
+    cout << "\nNotice what the value of the arrary name is: " << testScores << endl; //Example: 0x6ffdd0. 
+    cout<< endl;                                                                     // This is the memory address of where the array is stored in memory.                                                                       
+    return 0;
+}
