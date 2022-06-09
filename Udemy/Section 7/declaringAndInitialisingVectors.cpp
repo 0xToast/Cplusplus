@@ -1,4 +1,4 @@
-//This section goes over vectors in C++
+//Section 7 Declaring andInitialising Vectors
 
 #include <iostream>
 #include <vector> //Must include the library to use vectors 
