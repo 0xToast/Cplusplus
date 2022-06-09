@@ -38,6 +38,7 @@ int main() {
     cout << "Sales Tax: $" << totalCost * taxes << endl;
     
     double totalEstimate {totalCost + (totalCost * taxes)};
+    
     cout << "=======================================" << endl;
     cout << "Total Estimate: $" << totalEstimate << endl;
     cout << "This quotation is valid for " << estimateExpiry << " days only." << endl;
