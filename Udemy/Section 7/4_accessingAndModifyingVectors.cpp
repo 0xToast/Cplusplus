@@ -74,7 +74,7 @@ int main() {
     //
 
     //Example of a 2D-vector
-    vector <vector<int>> movie_ratings
+    vector <vector<int>> movieRatings
     {
         {1,2,3,4}, // 0 = Reviewer 1
         {5,6,7,8}, // 1 = Reviewer 2
@@ -83,29 +83,29 @@ int main() {
 
     // Array Syntax:
     cout << "\nHere are the movie ratings for reviewer #1 using array syntax: " << endl;
-    cout << movie_ratings[0][0] << endl; //1
-    cout << movie_ratings[0][1] << endl; //2
-    cout << movie_ratings[0][2] << endl; //3
-    cout << movie_ratings[0][3] << endl; //4
+    cout << movieRatings[0][0] << endl; //1
+    cout << movieRatings[0][1] << endl; //2
+    cout << movieRatings[0][2] << endl; //3
+    cout << movieRatings[0][3] << endl; //4
 
     cout << "\nHere are the movie ratings for reviewer #2 using array syntax: " << endl;
-    cout << movie_ratings[1][0] << endl; //5
-    cout << movie_ratings[1][1] << endl; //6
-    cout << movie_ratings[1][2] << endl; //7
-    cout << movie_ratings[1][3] << endl; //8
+    cout << movieRatings[1][0] << endl; //5
+    cout << movieRatings[1][1] << endl; //6
+    cout << movieRatings[1][2] << endl; //7
+    cout << movieRatings[1][3] << endl; //8
 
     // Vector Syntax:
     cout << "\nHere are the movie ratings for reviewer #1 using vector syntax: " << endl;
-    cout << movie_ratings.at(0).at(0) << endl; //1
-    cout << movie_ratings.at(0).at(1) << endl; //2
-    cout << movie_ratings.at(0).at(2) << endl; //3
-    cout << movie_ratings.at(0).at(3) << endl; //4
+    cout << movieRatings.at(0).at(0) << endl; //1
+    cout << movieRatings.at(0).at(1) << endl; //2
+    cout << movieRatings.at(0).at(2) << endl; //3
+    cout << movieRatings.at(0).at(3) << endl; //4
 
     cout << "\nHere are the movie ratings for reviewer #2 using vector syntax: " << endl;
-    cout << movie_ratings.at(1).at(0) << endl; //5
-    cout << movie_ratings.at(1).at(1) << endl; //6
-    cout << movie_ratings.at(1).at(2) << endl; //7
-    cout << movie_ratings.at(1).at(3) << endl; //8
+    cout << movieRatings.at(1).at(0) << endl; //5
+    cout << movieRatings.at(1).at(1) << endl; //6
+    cout << movieRatings.at(1).at(2) << endl; //7
+    cout << movieRatings.at(1).at(3) << endl; //8
 
     return 0; 
 }
