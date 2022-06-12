@@ -86,9 +86,9 @@ int main() {
     ===========================
     Looking back at the code, I noticed we used push_back method on line 43 & 44 to set the values within the 2D vector.
 
-    So when we updated vector1's element values on line 54, we only updated vector1's value only and didn't apply those changes to the 2D vector. 
+    So when we updated vector1's element values on line 54, we only updated vector1's value and didn't update those changes to the 2D vector. 
 
-    Thus we would need to update vector2d values, as it still has vector1's values still in memory.
+    Thus we would need to update vector2d values, as it still has vector1's older values still in memory.
 
     */
 }
