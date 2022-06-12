@@ -16,7 +16,7 @@ int main() {
     const int estimateExpiry {30}; // const locks days variable to 30
 
     //Note: If you try to change a constant's value, the compilation will fail.
-    //int estimateExpiry {35};
+    //int estimateExpiry {35}; //Uncomment this line to induce a compilation described above.
 
     cout << endl;
     cout << "\nQuotation for carpet cleaning service" << endl;
