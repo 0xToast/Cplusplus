@@ -1,100 +1,95 @@
+//Section 8 - Increment and Decrement Operators
+
 /*
+Increment Operator ++
+Decrement Operator --
 
-Increment operator ++
-Decrement operator --
+Increments or decrements its operand by 1
+Can be used with integers, floating point types and pointers
 
-Increments or decrement its operand by 1
-Can be used with ints, floats and pointers
+Post and Pre incrementation:
+============================
 
-Prefix ++num (Before item is used)
-Postfix num++ (After item is used)
+Prefix: ++num
+Postfix: num++
 
-Don't overuse this operator. 
-Never use it twice for the same variable in the same statment.
+Althoug they do the same this (increment a value by 1).
 
+Be careful of overusing this operator.
 */
 
 #include <iostream>
 
-using namespace std;
-
 int main() {
 
-    int counter {10};
-    int result {0};
+    int counter{10};
+    
+    //Example 1 - Simple Increment
+    std::cout << "Counter: " << counter << std::endl; //10
 
-    // // Example 1 - simple increment
-    // cout << "Counter: " << counter << endl; // 10
-    //
-    // counter = counter + 1;
-    // cout << "Counter: " << counter << endl; // 11
-    //
-    // counter++;
-    // cout << "Counter: " << counter << endl; // 12
-    //
-    // ++counter; 
-    // cout << "Counter: " << counter << endl; // 13
+    counter = counter + 1; 
+    std::cout << "Counter: " << counter << std::endl; //11
 
+    counter++;
+    std::cout << "Counter: " << counter << std::endl; //12 
 
-    // Example 2 - preincrement
+    ++counter;
+    std::cout << "Counter: " << counter << std::endl; //13 
+    std ::cout << std::endl;
+    
+    //Example 2 - Simple preincrement
+
+    // Pre-incrementation Note:
+    //++counter means it will be incremented before it is used. 
     counter = 10;
-    result = 0;
+    int result {0};
     
-    cout << "Counter: " << counter << endl; // 11
-    
-    result = ++counter; // Note the pre increment    
-    cout << "Counter: " << counter << endl; // 11
-    cout << "Result: " << result << endl; // 11
-    
+    std::cout << "Counter: " << counter << std::endl; //10
+
+    result = ++counter; //Note the preincrement
+    std::cout << "Counter: " << counter << std::endl; //11
+    std::cout << "Result: " << result << std::endl; //11
+    std ::cout << std::endl;
+
     // Breakdown of preincrement shown above (easy way to remeber):
     // counter = counter + 1 // 11
     // result = counter // 11
+   
 
-    //Example 3 - post-increment
-    //counter = 10;
-    //result = 0;
-    //
-    //cout << "Counter : " << counter << endl;    
-    //result = counter++; // Note the post increment
-    //
-    //cout << "Counter : " << counter << endl;
-    //cout << "Result : " << result << endl;
+    //Example 3 - More complex pre-incrementation
+    counter = 10;
+    result = 0;
+
+    std::cout << "Counter: " << counter << std::endl; //10
+    result = ++counter + 10; // 11 + 10  
+    std::cout << "Counter: " << counter << std::endl; //11
+    std::cout << "Result: " << result << std::endl; //21
+    std ::cout << std::endl;
+
+    //Example 4 - Simple Postincrement
+    //counter++ means it will be incremented after it is used. 
+    counter = 10;
+    result = 0;
+
+    std::cout << "Counter: " << counter << std::endl; //10
+    result = counter++; //Note the postincrement
+    std::cout << "Counter: " << counter << std::endl; //11
+    std::cout << "Result: " << result << std::endl; //10
+    std ::cout << std::endl;
 
     // Breakdown of postincrement shown above (easy way to remeber):
     // result = counter // 10
     // counter = counter + 1 // 11
 
-    
-    //Example 4
-    //counter = 10;
-    //result = 0;
-    //
-    //cout << "Counter : " << counter << endl;
-    //result = ++counter + 10;  // Note the pre increment
-    //
-    //cout << "Counter : " << counter << endl;
-    //cout << "Result : " << result << endl;
 
-    // Breakdown of preincrement shown above (easy way to remeber):
-    // counter = counter + 1 // 11
-    // result = counter + 10 // 21
+    //Example 5 - More complex post incrementation
+    counter = 10;
+    result = 0;
 
-    // Example 5
-    //counter = 10;
-    //result = 0;
-    //
-    //cout << "Counter : " << counter << endl;
-    //
-    //result = counter++ + 10;  // Note the post increment 
-    //
-    //cout << "Counter : " << counter << endl;
-    //cout << "Result : " << result << endl;
+    std::cout << "Counter: " << counter << std::endl; //10
+    result = counter++ + 10; //Note the postincrement
+    std::cout << "Counter: " << counter << std::endl; //11
+    std::cout << "Result: " << result << std::endl; //10
 
-    // Breakdown of postincrement shown above (easy way to remeber):
-    // result = counter + 10 // 20
-    // counter = counter + 1 // 11  
-    
-    cout << endl;
     return 0;
-
 }
