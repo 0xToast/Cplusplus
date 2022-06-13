@@ -41,7 +41,7 @@ int main() {
     std::cout << std::endl;
     std::cout << "After type casting: " << std::endl;
     std::cout << "d = " << d << std::endl; //10.25
+   
     return 0;
 
-    
 }
