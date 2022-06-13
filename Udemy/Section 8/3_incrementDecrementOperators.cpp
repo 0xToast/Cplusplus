@@ -13,7 +13,7 @@ Post and Pre incrementation:
 Prefix: ++num
 Postfix: num++
 
-Althoug they do the same this (increment a value by 1).
+Although they do the same this (increment a value by 1).
 
 Be careful of overusing this operator.
 */
