@@ -17,5 +17,4 @@ int main() {
     std::cout << num1 << " <= " << num2 << " : " << (num1 <= num2) << std::endl; //true or false depending on user input
     
     return 0;
-
 }
