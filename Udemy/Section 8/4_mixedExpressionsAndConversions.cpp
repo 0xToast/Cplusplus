@@ -19,7 +19,7 @@ int main() {
     std::cout << "average = "<< average << std::endl; //Only displays 12
     std::cout << std::endl;
 
-    // We can use casting to convert totalAmount to the double type to achieve our desired result.
+    //We can use casting to convert totalAmount to the double type to achieve our desired result.
     average = static_cast<double>(totalAmount) / totalNumber;
     std::cout << "After type casting: " << std::endl;
     std::cout << "average = " << average << std::endl; //Displays 12.5
