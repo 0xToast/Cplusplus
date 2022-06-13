@@ -43,5 +43,4 @@ int main() {
     std::cout << "d = " << d << std::endl; //10.25
    
     return 0;
-
 }
