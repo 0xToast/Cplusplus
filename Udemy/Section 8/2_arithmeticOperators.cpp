@@ -61,11 +61,11 @@ int main() {
 
     // Other examples on using arithmetic operators
     result = num1 * 10 + num2;
-    std::cout << result << std::endl; // 103
+    std::cout << result << std::endl; //103
 
-    std::cout << 5/10 << std::endl;
+    std::cout << 5/10 << std::endl; //0
 
-    std::cout << 5.0/10.00 << std::endl;
+    std::cout << 5.0/10.00 << std::endl; //0.5
 
     return 0;
 }
