@@ -1,4 +1,4 @@
-//Section 6 local variables, global variables and constants
+//Section 6 Declaring and Initialising Variables
 
 #include <iostream>
 using namespace std;
