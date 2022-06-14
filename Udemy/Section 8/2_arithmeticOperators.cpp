@@ -24,7 +24,7 @@ int main() {
     int num1 {200};
     int num2 {100};
 
-    std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl; //200 + 100 = 300
+    std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl; // 200 + 100 = 300
 
     std::cout << std::endl; 
     
@@ -32,26 +32,26 @@ int main() {
 
     int result {0};
     result = num1 + num2;
-    std::cout << num1 << " + " << num2 << " = " << result << std::endl; //200 + 100 = 300
+    std::cout << num1 << " + " << num2 << " = " << result << std::endl; // 200 + 100 = 300
 
     result = num1 - num2;
-    std::cout << num1 << " - " << num2 << " = " << result << std::endl; //200 - 100 = 100
+    std::cout << num1 << " - " << num2 << " = " << result << std::endl; // 200 - 100 = 100
 
     result = num1 * num2;
-    std::cout << num1 << " * " << num2 << " = " << result << std::endl; //200 * 100 = 20000
+    std::cout << num1 << " * " << num2 << " = " << result << std::endl; // 200 * 100 = 20000
 
     result = num1 / num2;
     std::cout << num1 << " / " << num2 << " = " << result << std::endl;  //200 / 100 = 2
 
     result = num2 /num1;
-    std::cout << num2 << " / " << num1 << " = " << result << std::endl; //100 / 200 = 0 - The result variable is an int, so the .5 will be omitted. Use doubles for more precision.
+    std::cout << num2 << " / " << num1 << " = " << result << std::endl; // 100 / 200 = 0 - The result variable is an int, so the .5 will be omitted. Use doubles for more precision.
     
-    //Simple example of the modulo operator (remainder of). Remeber the modulo operator only works with integers only. 
+    // Simple example of the modulo operator (remainder of). Remeber the modulo operator only works with integers only. 
     result = num1 % num2;  
     std::cout << num1 << " % " << num2 << " = " << result << std::endl; //200 % 100 = 0 
     // Note: (200 + 100 = 2 with a remainder of 0, zero is the remainder/modulo. Modulo will only print out the remainder value)
 
-    //Another modulo example
+    // Another modulo example
     num1 = 10;
     num2 = 3;
     result = num1 % num2;
