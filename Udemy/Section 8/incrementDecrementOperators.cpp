@@ -24,7 +24,7 @@ int main() {
 
     int counter{10};
     
-    //Example 1 - Simple Increment
+    // Example 1 - Simple Increment
     std::cout << "Counter: " << counter << std::endl; //10
 
     counter = counter + 1; 
@@ -37,10 +37,10 @@ int main() {
     std::cout << "Counter: " << counter << std::endl; //13 
     std ::cout << std::endl;
     
-    //Example 2 - Simple preincrement
+    // Example 2 - Simple preincrement
 
     // Pre-incrementation Note:
-    //++counter means it will be incremented before it is used. 
+    // ++counter means it will be incremented before it is used. 
     counter = 10;
     int result {0};
     
@@ -56,7 +56,7 @@ int main() {
     // result = counter // 11
    
 
-    //Example 3 - More complex pre-incrementation
+    // Example 3 - More complex pre-incrementation
     counter = 10;
     result = 0;
 
@@ -66,8 +66,8 @@ int main() {
     std::cout << "Result: " << result << std::endl; //21
     std ::cout << std::endl;
 
-    //Example 4 - Simple Postincrement
-    //counter++ means it will be incremented after it is used. 
+    // Example 4 - Simple Postincrement
+    // counter++ means it will be incremented after it is used. 
     counter = 10;
     result = 0;
 
@@ -82,7 +82,7 @@ int main() {
     // counter = counter + 1 // 11
 
 
-    //Example 5 - More complex post incrementation
+    // Example 5 - More complex post incrementation
     counter = 10;
     result = 0;
 
