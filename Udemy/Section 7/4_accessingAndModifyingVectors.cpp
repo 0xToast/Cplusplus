@@ -6,13 +6,13 @@ using namespace std;
 
 int main() {
 
-    vector <char> vowelsEmpty; //empty vector - Only way to add to this vector is use the .push_back() method
-    vector <char> vowelsZero (5); //initialised 5 elements to 0
+    vector <char> vowelsEmpty; // empty vector - Only way to add to this vector is use the .push_back() method
+    vector <char> vowelsZero (5); // initialised 5 elements to 0
     
     vector <char> vowels {'a','e','i','o','u'}; 
 
-    cout << vowels[0] << endl; //a
-    cout << vowels[4] << endl; //u
+    cout << vowels[0] << endl; // a
+    cout << vowels[4] << endl; // u
 
     //
 
@@ -23,30 +23,30 @@ int main() {
 
     vector <int> testScores {100,98,89};
     
-    //Accessing a vector using array syntax
+    // Accessing a vector using array syntax
     cout << "\nTest scores using arrary syntax:" << endl;
-    cout << testScores[0] << endl; //100
-    cout << testScores[1] << endl; //98
-    cout << testScores[2] << endl; //89
+    cout << testScores[0] << endl; // 100
+    cout << testScores[1] << endl; // 98
+    cout << testScores[2] << endl; // 89
 
     //Accessing a vector using vector syntax
     cout << "\nTest scores using vector syntax:" << endl;
-    cout << testScores.at(0) << endl; //100
-    cout << testScores.at(1) << endl; //98
-    cout << testScores.at(2) << endl; //89
+    cout << testScores.at(0) << endl; // 100
+    cout << testScores.at(1) << endl; // 98
+    cout << testScores.at(2) << endl; // 89
     
-    //.size() method prints how many elements are in the vector.
+    // .size() method prints how many elements are in the vector.
     cout << "\n[+] There are " << testScores.size() << " elements in the vector." << endl; //3
 
     cout << "\nEnter 3 test scores: ";
-    cin >> testScores.at(0); //Overwrites the element at index 0 with user input
-    cin >> testScores.at(1); //Overwrites the element at index 1 with user input
-    cin >> testScores.at(2); //Overwrites the element at index 2 with user input
+    cin >> testScores.at(0); // Overwrites the element at index 0 with user input
+    cin >> testScores.at(1); // Overwrites the element at index 1 with user input
+    cin >> testScores.at(2); // Overwrites the element at index 2 with user input
 
     cout << "\nUpdated test scores:" << endl;
-    cout << testScores.at(0) << endl; //Returns number that user inputted
-    cout << testScores.at(1) << endl; //Returns number that user inputted
-    cout << testScores.at(2) << endl; //Returns number that user inputted
+    cout << testScores.at(0) << endl; // Returns number that user inputted
+    cout << testScores.at(1) << endl; // Returns number that user inputted
+    cout << testScores.at(2) << endl; // Returns number that user inputted
 
     cout << "\nEnter a test score to add to the vector: ";
 
@@ -59,21 +59,21 @@ int main() {
     testScores.push_back(scoreToAdd);
 
     cout << "\nTest scores are now: " << endl;
-    cout << testScores.at(0) << endl; //Returns number that user inputted
-    cout << testScores.at(1) << endl; //Returns number that user inputted
-    cout << testScores.at(2) << endl; //Returns number that user inputted
-    cout << testScores.at(3) << endl; //Returns number that user inputted
-    cout << testScores.at(4) << endl; //Returns number that user inputted
+    cout << testScores.at(0) << endl; // Returns number that user inputted
+    cout << testScores.at(1) << endl; // Returns number that user inputted
+    cout << testScores.at(2) << endl; // Returns number that user inputted
+    cout << testScores.at(3) << endl; // Returns number that user inputted
+    cout << testScores.at(4) << endl; // Returns number that user inputted
     
-    //.size() method prints how many elements are in the vector.
+    // .size() method prints how many elements are in the vector.
     cout << "\n[+] There are " << testScores.size() << " elements in the vector." << endl; //5 Elements
 
-    //There is not element at index 10 of the vector, thus an error will occur.
+    // There is not element at index 10 of the vector, thus an error will occur.
     cout << "[!] - This will cause an exception error. " << testScores.at(10) << endl; 
 
     //
 
-    //Example of a 2D-vector
+    // Example of a 2D-vector
     vector <vector<int>> movieRatings
     {
         {1,2,3,4}, // 0 = Reviewer 1
