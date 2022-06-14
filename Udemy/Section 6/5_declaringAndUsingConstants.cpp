@@ -11,11 +11,11 @@ int main() {
     int numberOfRooms {0};
     cin >> numberOfRooms; 
 
-    const double pricePerRoom {38.50}; //const locks pricePerRoom variable to 30
-    const double taxRate {0.06}; //const locks taxes variable to 0.06
+    const double pricePerRoom {38.50}; // const locks pricePerRoom variable to 30
+    const double taxRate {0.06}; // const locks taxes variable to 0.06
     const int estimateExpiry {30}; // const locks days variable to 30
 
-    //Note: If you try to change a constant's value, the compilation will fail.
+    // Note: If you try to change a constant's value, the compilation will fail.
     //int estimateExpiry {35}; //Uncomment this line to induce a compilation described above.
 
     cout << endl;
