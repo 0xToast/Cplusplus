@@ -12,6 +12,6 @@ Refer to this [link](https://www.youtube.com/watch?v=4NYC-VU-svE&t) for more inf
 - [Declaring and Initialising Vectors](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%207/declaringAndInitialisingVectors.cpp)
 - [Accessing and Modifying Vectors](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%207/accessingAndModifyingVectors.cpp)
 
-## Individual Sections
+## Section Challange
 - [Various Exercises with Vectors](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%207/vectorChallenge.cpp)
 
