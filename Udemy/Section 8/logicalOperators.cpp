@@ -37,7 +37,7 @@ int main() {
     // Determines if user input is out of bounds
     bool outOfBounds {false};
 
-    //Note: One condition needs to be true for the entire statement to be true
+    // Note: One condition needs to be true for the entire statement to be true
     outOfBounds = (num < lowerThreshold || num > upperThreshold);
     std::cout << num << " is outside of " << lowerThreshold << " and " << upperThreshold << ": " << outOfBounds << std::endl; // true or false depending on the user's input.
     std::cout << std::endl;
