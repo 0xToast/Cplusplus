@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 
-// int global {0}; -- In this example, this is a global variable
-// Note: Local variables take presedence over global variables if the same identifier is used
+int global {0}; //In this example, this is a global variable
+//Note: Local variables take presedence over global variables if the same identifier is used
 
 int main () { 
 
