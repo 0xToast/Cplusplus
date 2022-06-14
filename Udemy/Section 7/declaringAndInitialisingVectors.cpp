@@ -1,7 +1,7 @@
 //Section 7 Declaring and Initialising Vectors
 
 #include <iostream>
-#include <vector> //Must include the library to use vectors 
+#include <vector> // Must include the library to use vectors 
 
 using namespace std;
 
