@@ -8,7 +8,7 @@ int main() {
 
     std::cout << std::boolalpha; // Use boolalpha to dislay the alpha version of true and false.
 
-    std::cout << displayBool << std::endl; //false
+    std::cout << displayBool << std::endl; // false
     std::cout << std::endl; 
     
     //
