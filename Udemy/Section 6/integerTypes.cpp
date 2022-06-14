@@ -5,7 +5,7 @@ using namespace std;
 
 int main () { 
     
-    unsigned short int examScore {55}; //same as unsigned short examScore{55};
+    unsigned short int examScore {55}; // Same as unsigned short examScore{55};
     cout << "My exam score was " << examScore << endl;
     
     int amountOfCars{65};
