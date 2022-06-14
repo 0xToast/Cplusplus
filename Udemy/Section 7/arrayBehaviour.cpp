@@ -1,4 +1,4 @@
-//Section 7 Extra Notes on Array Behaviour
+// Section 7 Extra Notes on Array Behaviour
 
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main() {
     cout << "Index 3 of arrayTest3 is: " << arrayTest3[3] << endl; // 0
     cout << "Index 4 of arrayTest3 is: " << arrayTest3[4] << endl; // 0
 
-    int arrayTest4 [5] {1,2}; //To set elements to specific values you will need to initialise them.
+    int arrayTest4 [5] {1,2}; // To set elements to specific values you will need to initialise them.
 
     cout << "\nIndex 0 of arrayTest4 is: " << arrayTest4[0] << endl; // 1
     cout << "Index 1 of arrayTest4 is: " << arrayTest4[1] << endl; // 2
