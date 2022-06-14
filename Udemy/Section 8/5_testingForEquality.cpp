@@ -24,8 +24,8 @@ int main() {
     equalResult = (num1 == num2);
     notEqualResult = (num1 != num2);
 
-    std::cout << "Comparison result (equals): " << equalResult << std::endl; //Depending on user input (true or false)
-    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; //Depending on user input (true or false)
+    std::cout << "Comparison result (equals): " << equalResult << std::endl; // Depending on user input (true or false)
+    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; // Depending on user input (true or false)
     std::cout << std::endl; 
     
     //
@@ -38,8 +38,8 @@ int main() {
     equalResult = (char1 == char2);
     notEqualResult = (char1 != char2);
 
-    std::cout << "Comparison result (equals): " << equalResult << std::endl; //Depending on user input (true or false)
-    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; //Depending on user input (true or false)
+    std::cout << "Comparison result (equals): " << equalResult << std::endl; // Depending on user input (true or false)
+    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; // Depending on user input (true or false)
     std::cout << std::endl; 
     
     //
@@ -52,8 +52,8 @@ int main() {
     equalResult = (double1 == double2);
     notEqualResult = (double1 != double2);
 
-    std::cout << "Comparison result (equals): " << equalResult << std::endl; //Depending on user input (true or false)
-    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; //Depending on user input (true or false)
+    std::cout << "Comparison result (equals): " << equalResult << std::endl; // Depending on user input (true or false)
+    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; // Depending on user input (true or false)
     std::cout << std::endl;
 
     //
@@ -67,8 +67,8 @@ int main() {
     equalResult = (num3 == double3);
     notEqualResult = (num3 != double3);
 
-    std::cout << "Comparison result (equals): " << equalResult << std::endl; //Depending on user input (true or false)
-    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; //Depending on user input (true or false)
+    std::cout << "Comparison result (equals): " << equalResult << std::endl; // Depending on user input (true or false)
+    std::cout << "Comparison result (not equals): " << notEqualResult << std::endl; // Depending on user input (true or false)
     std::cout << std::endl;
 
     return 0;
