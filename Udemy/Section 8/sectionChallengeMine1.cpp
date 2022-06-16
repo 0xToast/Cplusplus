@@ -33,25 +33,21 @@ int main() {
 
     totalDollars = cents / centsToDollar; 
     remainder = cents % centsToDollar;
-    std::cout << "Dollar DEBUG >>> var remainder = " << remainder << std::endl;
-
+    
     int totalQuaters{0};
 
     totalQuaters = remainder / centsToQuater;
     remainder %= centsToQuater; // Compound Assignment: remainder = remainder % centsToQuater;
-    std::cout << "Quater DEBUG >>> var remainder = " << remainder << std::endl;
 
     int totalDimes{0};
 
     totalDimes = remainder / centsToDime;
     remainder %= centsToDime;
-    std::cout << "Dime DEBUG >>> var remainder = " << remainder << std::endl;
 
     int totalNickles{0};
 
     totalNickles = remainder / centsToNickle;
     remainder %= centsToNickle;
-    std::cout << "Nickle DEBUG >>> var remainder = " << remainder << std::endl;
 
     std::cout << std::endl;
 
@@ -62,4 +58,6 @@ int main() {
     std::cout << "Dimes: " << totalDimes << std::endl; 
     std::cout << "Nickles: " << totalNickles << std::endl;
     std::cout << "Pennies: " << remainder << std::endl; // No need to do penny calculation, just print remainder.
+    
+    return 0;
 }
