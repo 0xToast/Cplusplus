@@ -12,5 +12,5 @@ Everything to do with Statements and Operators in C++.
 - [Compound Assignment Operators](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/compoundAssigmentOperators.cpp) *
 
 ## Section Challanges
-- [Text Baby!](URL)
+- [Cents Convertor - First Attempt](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/sectionChallengeMine1.cpp)
 
