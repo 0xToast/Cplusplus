@@ -18,7 +18,7 @@ int main() {
 
     // {} is needed if you want to execute more statements if the condition is met
     if (num >= min){
-        std::cout << "===== if statment 1 ======" << std::endl;
+        std::cout << "====== if statment 1 ======" << std::endl;
         std::cout << num << " is greater than or equal to " << min << std::endl;
 
         // Worksout how far away the user's input is from the min number
@@ -29,7 +29,7 @@ int main() {
     }
 
     if (num <= max){
-        std::cout << "===== if statment 2 ======" << std::endl;
+        std::cout << "====== if statment 2 ======" << std::endl;
         std::cout << num << " is less than or equal to " << max << std::endl;
 
         // Worksout how far away the user's input is from the max number.
@@ -40,14 +40,14 @@ int main() {
     }
 
     if (num >= min && num <= max){
-        std::cout << "===== if statment 3 ======" << std::endl;
+        std::cout << "====== if statment 3 ======" << std::endl;
         std::cout << num << " is within range" << std::endl;
         std::cout << "This means statements 1 and 2 must also display!!!" << std::endl;
         std::cout << std::endl;
     }
 
     if (num == min || num == max){
-        std::cout << "===== if statment 4 ======" << std::endl;
+        std::cout << "====== if statment 4 ======" << std::endl;
         std::cout << num << " is on a boundary number" << std::endl;
         std::cout << "This means all 4 statements display!!!" << std::endl;
         std::cout << std::endl;
