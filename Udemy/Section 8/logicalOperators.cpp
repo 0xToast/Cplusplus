@@ -76,7 +76,16 @@ int main() {
     // Note: both conditions need to be True for the entire statement to be true 
     wearCoat = (currentTemp < tempThreshold && windSpeed > windSpeedThreshold);
     std::cout << "Do you need to wear a coat? (Using AND): " << wearCoat << std::endl;
-    std::cout << std::endl;  
+    std::cout << std::endl;
 
     return 0;
+}
+
+
+// Another random example using parentheses
+void logical_operators(int age, bool parental_consent, bool ssn, bool accidents) {
+    
+    if ((age >= 18 || (age >= 16 && parental_consent)) && ssn && !accidents)
+        std::cout << "Yes, you can work.";
+    
 }
