@@ -12,5 +12,8 @@ Everything to do with Statements and Operators in C++.
 - [Compound Assignment Operators](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/compoundAssigmentOperators.cpp) *
 
 ## Section Challanges
-- [Cents Convertor - My attempt](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/sectionChallengeMine1.cpp)
+- [Cents Convertor - My solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/sectionChallengeMine1.cpp)
 
+## Challange Solution
+- [Insturctor Solution Using Modulo Operator](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/instuctorSolutionwModulo.cpp)
+- [Insturctor Solution Without Modulo Operator](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/instructorSoltionNoModulo.cpp)
