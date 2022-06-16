@@ -21,7 +21,6 @@
 int main() {
 
     const int centsToDollar{100}, centsToQuater{25}, centsToDime{10},centsToNickle{5};
-
     int cents{0};
 
     std::cout << "Enter an amount of cents to convert: ";
