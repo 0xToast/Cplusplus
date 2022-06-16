@@ -11,9 +11,6 @@
         1 Nickle is 5 cents
         1 Penny is 1 cent.
 
-    Info: 
-    This is a longer more verbose attempt. 
-
 */
 
 #include <iostream>
