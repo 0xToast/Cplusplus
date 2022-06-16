@@ -54,7 +54,7 @@ int main() {
     std::cout << "=================================" << std::endl;
     std::cout << "Dollars: " << totalDollars << std::endl; 
     std::cout << "Quaters: " << totalQuaters << std::endl; 
-    std::cout << "Dimes: " << totalDimes << std::endl; 
+    std::cout << "Dimes  : " << totalDimes << std::endl; 
     std::cout << "Nickles: " << totalNickles << std::endl;
     std::cout << "Pennies: " << remainder << std::endl; // No need to do penny calculation, just print remainder.
     
