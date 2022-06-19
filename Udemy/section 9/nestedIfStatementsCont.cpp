@@ -47,18 +47,18 @@ int main() {
         packageVolume = length * width * height;
         packageCost = baseCost;
 
-        // Checks if package is > 500 cubic inches
+        // Checks if package is > 500 cubic inches and add tier 2 Surcharge
         if (packageVolume > teir2Threshold){
             packageCost += packageCost * tier2Surcharge;
             std::cout << "\n[+] Applying Tier 2 Surcharge..." << std::endl;
         } 
         
-        // Checks if package is > 100 cubic inches
+        // Checks if package is > 100 cubic inches and add Tier 1 Surcharge
         else if (packageVolume > tier1Threshold){
             packageCost += packageCost * tier1Surcharge;
             std::cout << "\n[+] Applying Tier 1 Surcharge..." << std::endl;
         }
-
+	    
         std::cout << "\nThe volume of your package is: " << packageVolume << " cubic inches."<< std::endl;
         std::cout << std::fixed << std::setprecision(2); // Part of <iomanip> library. Used to set decimal precision
         std::cout << "Your package will cost $" << packageCost << std::endl;
