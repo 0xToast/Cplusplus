@@ -28,7 +28,6 @@ int main() {
             std::cout << "\nSorry you must must repeat this class." << std::endl;
         else 
             std::cout << "\nCongratulations, you have passed!";
-
     } 
     
     else {
