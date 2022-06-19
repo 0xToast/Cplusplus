@@ -5,5 +5,5 @@ This repo contains all the code written to learn C++/
 - [Section 6 - Variables and Constants](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%206)
 - [Section 7 - Arrays and Vectors](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%207)
 - [Section 8 - Statements and Operators](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%208)
-- [Section 9 - Controlling Program Flow](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/booleanValues.cpp)
+- [Section 9 - Controlling Program Flow](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%209)
 - [Text Baby!](url)
