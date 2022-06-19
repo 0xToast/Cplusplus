@@ -1,85 +1,69 @@
-//Section 9 more nested if statements
+// Section 9 - Nested if statements - Shipping cost calculator
 
 /*
-Shipping calculator.
+    Shipping cost calulator
 
-Ask the user for the package dimensions
-length, width, height - these should be integers
+    Ask the user for package dimensions in inches
+    lenght, width, height
 
-All dimensions must be 10 inches or less otherwise shippment cannot happen.
-
-Base cost of $2.50
-
-If package volume is greater than 100 cubic inches there is a 10% surcharge
-If package volume is greater than 500 cubic inches there is a 25% surcharge
-
-Psudo Code: 
-============
-
-GET Package Dimensions (L & H & W) from USER
-ENSURE all dimensions are 10 inches or less BREAK if too big
-WORKOUT Volume of user package
-IF package volume is greater than 100 ADD 10% surcharge (0.10 * 2.50) amount
-IF package volume is grater than 500 ADD 25% surcharge (0.25 * 2.50) to final amount 
-DISPLAY final amount to user. 
+    All dimensions must be 10 inches or less, otherwise shipment cannot take place
+    
+    Base cost $2.50
+    If package volume is greater than 100 cubic inches there is a 10% surcharge
+    if package colume is greater than 500 cubic inches there is a 25% surcharge
 */
 
-// https://stackoverflow.com/questions/1439907/what-are-the-differences-between-if-else-and-else-if
-
 #include <iostream>
-#include <iomanip>
+#include <iomanip> // Used to make values more precise
 
-using namespace std;
+int main() {
 
-int main () {
-	
-	int length{0}, width{0}, height{0};
-	const double baseCost {2.50};
-	
-	const int maxDimensionLength {10};
+    int length{0}, width{0}, height{0};
+    const int maxDimension {10};
+    double baseCost{2.50};
 
-	const int tier1Threshold {100};
-	const int tier2Threshold {500};
-	
-	const double tier1Surcharge{0.10};
-	const double tier2Surcharge{0.25};
-	
-	cout << "\n==================================";
-	cout << "\n|   Company X Package Calulator. |";
-	cout << "\n==================================";
-	cout << endl;
-	cout << "\nPlease enter the package length, width and hieght seperated by spaces: ";
-	cin >> length >> width >> height;
-	
-	if (length > maxDimensionLength || width > maxDimensionLength || height > maxDimensionLength)
-	{
-		cout << "\nUnfortunately, the package exceeds the size specifications of this service and cannot be shipped." << endl;
-	} else {
-		// DEBUG STATEMENT
-		//cout << "\nDEBUG CHECK >>> PACKAGE ACCEPTED EXCUTING ELSE STATMENT" << endl; 
-		
-		double packageCost {0};
-		int packageVolume{0};
-		
-		packageVolume = length * width * height;
-		packageCost = baseCost;
-		
-		if (packageVolume > tier2Threshold) {
-			packageCost += packageCost * tier2Surcharge;
-			//DEBUG STATEMENT 
-			//cout << "DEBUG CHECK >>> APPLYING tier2Surcharge" << endl;
-		} else if (packageVolume > tier1Threshold) {
-			packageCost += packageCost * tier1Surcharge;
-			//DEBUG STATEMENT 
-			//cout << "DEBUG CHECK >>> APPLYING tier1Surcharge" << endl;
-		} 
-		
-		cout << "\nYour package volume is: " << packageVolume << " cubic inches." << endl;
-		cout << fixed << setprecision(2); // prints only 2 decimal places in the dollar amount
-		cout << "Total package shippment cost is: $" << packageCost << endl;
-		
-	}
-	
-  cout << endl;
-	return 0;
+    const int tier1Threshold {100};
+    const int teir2Threshold{500};
+
+    const double tier1Surcharge {0.10}; // 10% extra
+    const double tier2Surcharge {0.25}; // 25% extra
+
+    std::cout << "\n==================================";
+	std::cout << "\n|   Company X Package Calulator. |";
+	std::cout << "\n==================================";
+	std::cout << std::endl;
+	std::cout << "\nPlease enter the package length, width and hieght seperated by spaces: ";
+	std::cin >> length >> width >> height;
+
+    // Checks if package dimensions for a value larger than.
+    if (length > maxDimension || width > maxDimension || height > maxDimension) {
+        std::cout << "\n[!] Package rejected - dimension limit exceeded!"  << std::endl;
+    } 
+    
+    else {
+        double packageCost {0};
+        int packageVolume{0};
+
+        packageVolume = length * width * height;
+        packageCost = baseCost;
+
+        // Checks if package is > 500 cubic inches
+        if (packageVolume > teir2Threshold){
+            packageCost += packageCost * tier2Surcharge;
+            std::cout << "\n[+] Applying Tier 2 Surcharge..." << std::endl;
+        } 
+        
+        // Checks if package is > 100 cubic inches
+        else if (packageVolume > tier1Threshold){
+            packageCost += packageCost * tier1Surcharge;
+            std::cout << "\n[+] Applying Tier 1 Surcharge..." << std::endl;
+        }
+
+        std::cout << "\nThe volume of your package is: " << packageVolume << " cubic inches."<< std::endl;
+        std::cout << std::fixed << std::setprecision(2); // Part of <iomanip> library. Used to set decimal precision
+        std::cout << "Your package will cost $" << packageCost << std::endl;
+    }
+
+    std::cout << std::endl;
+    return 0; 
 }
