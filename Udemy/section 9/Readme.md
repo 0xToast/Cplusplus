@@ -10,6 +10,6 @@ Everything to do with Controlling Program Flow in C++.
 - [Switch Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatement.cpp) 
 - [Switch Statements with Enumerations](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatementWithEnum.cpp) 
 - [Conditonal Operators - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsBasicExampls.cpp) *
-- [Conditonal Operator - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsBasicExampls.cpp) *
+- [Conditonal Operator - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsContinued.cpp) *
 ## Section Challanges
 - [Text Baby!](URL)
