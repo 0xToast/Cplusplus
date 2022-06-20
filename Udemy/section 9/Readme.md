@@ -7,6 +7,8 @@ Everything to do with Controlling Program Flow in C++.
 - [Nested if Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatements.cpp) *
 - [Nested if Statements - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) *
 - [Nested if Statements - Course Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) *
+- [Switch Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatement.cpp) 
+- [Switch Statements with Enumerations](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatementWithEnum.cpp) 
 
 ## Section Challanges
 - [Text Baby!](URL)
