@@ -20,7 +20,7 @@ int main() {
 
     int length{0}, width{0}, height{0};
     const int maxDimension {10};
-    double baseCost{2.50};
+    const double baseCost{2.50};
 
     const int tier1Threshold {100};
     const int teir2Threshold{500};
