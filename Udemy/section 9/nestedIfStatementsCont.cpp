@@ -38,9 +38,7 @@ int main() {
     // Checks if package dimensions for a value larger than.
     if (length > maxDimension || width > maxDimension || height > maxDimension) {
         std::cout << "\n[!] Package rejected - dimension limit exceeded!"  << std::endl;
-    } 
-    
-    else {
+    } else {
         double packageCost {0};
         int packageVolume{0};
 
