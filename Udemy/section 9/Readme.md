@@ -12,5 +12,6 @@ Everything to do with Controlling Program Flow in C++.
 - [Conditonal Operators - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsBasicExampls.cpp) *
 - [Conditonal Operator - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsContinued.cpp) *
 - [For Loops - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopBasics.cpp) *
+- [For Loops - Complex](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopBasics.cpp) *
 ## Section Challanges
 - [Text Baby!](URL)
