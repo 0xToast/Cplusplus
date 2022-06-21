@@ -22,17 +22,17 @@ int main() {
     std::cout << std::endl;
 
     // Assignment style
-    for (int k = 1 ; k <=5 ; ++k)
-        std::cout << k <<std::endl; // 1 2 3 4 5
+    for (int j = 1 ; j <=5 ; ++j)
+        std::cout << j <<std::endl; // 1 2 3 4 5
     
     std::cout << std::endl;
     // Note: variables j & k are only accessable to the loops above, other blocks of code wiil not be able to access j & k.
    
     // More complex examples
 
-    for (int x {1} ; x <= 10; ++x) {
-        if (x % 2 == 0)
-            std::cout << x << std::endl; // 2 4 6 8 10
+    for (int j {1} ; j <= 10; ++j) {
+        if (j % 2 == 0)
+            std::cout << j << std::endl; // 2 4 6 8 10
         }
     
     std::cout << std::endl;
@@ -41,8 +41,8 @@ int main() {
 
     int scoreArray [] {100, 90, 87};
     
-    for (int y {0} ; y < 3 ; ++y) {
-        std::cout << scoreArray[y] << std::endl; // 100 90 97
+    for (int j {0} ; j < 3 ; ++j) {
+        std::cout << scoreArray[j] << std::endl; // 100 90 97
     }
 
     std::cout << std::endl;
