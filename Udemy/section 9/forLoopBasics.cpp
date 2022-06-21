@@ -17,7 +17,7 @@ int main() {
     
     // Initilisation style 
     for (int j {1} ; j <=5 ; ++j)
-        std::cout << j <<std::endl; // 1 2 3 4 5
+        std::cout << j << std::endl; // 1 2 3 4 5
     
     std::cout << std::endl;
 
