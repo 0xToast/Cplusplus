@@ -1,6 +1,6 @@
 // Section 9 - Range-based Loops
 
-// I found the range-base explination in the course to be lacking. So I did some extra research.
+// I found the range-base explanation in the course to be lacking. So I did some extra research.
 // C++ Programming Tutorial - Range Based For Loop: https://www.youtube.com/watch?v=8qrZYjL2jBg
 
 #include <iostream>
