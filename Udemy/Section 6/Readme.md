@@ -2,7 +2,7 @@
 Everything to do with Variables and Constants in C++.
 
 ## Individual Sections
-- [Declaring and Initializing Variables](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/variables.cpp)
+- [Declaring and Initializing Variables](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/declaringAndInitialisingVariables.cpp)
 - [Integer Types](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/integerTypes.cpp)
 - [Floating Point Types](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/floatingPointTypes.cpp)
 - [Boolean Types](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%206/booleanValues.cpp)
