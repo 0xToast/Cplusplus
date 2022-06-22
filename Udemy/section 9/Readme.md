@@ -13,5 +13,6 @@ Everything to do with Controlling Program Flow in C++.
 - [Conditonal Operator - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsContinued.cpp) *
 - [For Loops - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopBasics.cpp) *
 - [For Loops - Complex](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopComplex.cpp) *
+- [Range Based For Loops](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/rangebaseForLoopBasics.cpp) *
 ## Section Challanges
 - [Text Baby!](URL)
