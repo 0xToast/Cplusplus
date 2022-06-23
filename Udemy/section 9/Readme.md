@@ -34,5 +34,8 @@ Everything to do with Controlling Program Flow in C++.
 - [Do While Loop - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/doWhileLoopBasics.cpp) *
 - [Do While Loop - Menu Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/doWhileMenuExercise.cpp) *
 
+### Continue and Break Statements
+- [Continue and Break Statements - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/continueAndBreakStatements.cpp)
+
 ## Section Challanges
 - [Text Baby!](URL)
