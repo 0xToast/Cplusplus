@@ -29,8 +29,9 @@ Everything to do with Controlling Program Flow in C++.
 ### WHILE LOOPS
 - [While Loop - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopBasics.cpp) *
 - [While Loops - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopsContinued.cpp) *
-- [While Loops - Exercise](URL) *
 
+### DO WHILE Loops
+- [Do While Loop - Basics](URL) *
 
 ## Section Challanges
 - [Text Baby!](URL)
