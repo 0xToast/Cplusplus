@@ -32,7 +32,7 @@ Everything to do with Controlling Program Flow in C++.
 
 ### DO WHILE Loops
 - [Do While Loop - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/doWhileLoopBasics.cpp) *
-- [Do While Loop - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/doWhileMenuExercise.cpp) *
+- [Do While Loop - Menu Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/doWhileMenuExercise.cpp) *
 
 ## Section Challanges
 - [Text Baby!](URL)
