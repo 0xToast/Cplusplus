@@ -1,4 +1,4 @@
-// Section 9 - Do While Loops Menu
+// Section 9 - Do While Loop Menu
 
 #include <iostream>
 
