@@ -32,7 +32,7 @@ int main() {
         else 
             std::cout << "\n[!] Invalid selection - please try again!" << std::endl;
 
-    } while (selection != 'q' || selection != 'Q');
+    } while (selection != 'q' || selection != 'Q'); // Look this up some more, this is really hurting my brain.
     std::cout << "\n[!] Program terminated..." << std::endl;
     std::cout << std::endl;
     return 0;
