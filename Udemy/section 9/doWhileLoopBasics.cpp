@@ -1,59 +1,36 @@
-// Section 9
-// Do While Loop
+// Section 9 - Do While Loops Basics
 
 #include <iostream>
 
-using namespace std;
+int main() {
 
-int main () {
+    // Do While Loop - Basic Example
+
+    int number {};
+    do {
+        std::cout << "Enter an integer between 1 and 5: ";
+        std::cin >> number;
+        
+    } while (number <=1 || number >=5); // While input is less than 1 or greater than 5. Keep excuting the statement
+    std::cout << "Valid number selected." << std::endl;
+
+    // Do While Loop - Complex
 
     char selection {};
 
     do {
-        cout << "\n+----------------------+" << endl;
-        cout << "|      DO WHILE Menu   |" << endl;
-        cout << "+----------------------+" << endl;
-        cout << "1. Do this" << endl;
-        cout << "2. Do that" << endl;
-        cout << "3. Do something else" << endl;
-        cout << "Q. Quit" << endl;
-        cout << "+----------------------+" << endl;
-        cout << "\nEnter a selection: ";
-        cin >> selection;
+        double width{}, height{};
+        std::cout << "\nEnter width and height separated by a space: ";
+        std::cin >> width >> height;
 
-        // Example 1 - Switch example
-        switch (selection) {
-            case '1':
-                cout << "\nOption 1 selected - Doing this..." << endl;
-                break;
-            case '2':
-                cout << "\nOption 2 selected - Doing that..." << endl;
-                break;
-            case '3':
-                cout << "\nOption 3 selected - Doing something else..." << endl;
-                break;
-            case 'q':
-            case 'Q':
-                break;
-            default:
-                cout << "\n[!] Invalid selection - please try again." << endl;
-        }
+        double area {width * height};
+        std::cout << "The area is " << area << std::endl;
 
-        // Example 2 - Using if-else ladder
-        // if (selection == '1')
-        //     cout << "\nOption 1 selected - Doing this..." << endl;
-        // else if (selection == '2')
-        //     cout << "\nOption 2 selected - Doing that..." << endl;
-        // else if (selection == '3')
-        //     cout << "\nOption 3 selected - Doing something else..." << endl;
-        // else if (selection == 'Q' || selection == 'q')
-        //     continue;
-        // else
-        //     cout << "\n[!] Invalid selection - please try again. " << endl;
+        std::cout << "\nCalculate another? (Y/N): ";
+        std::cin >> selection;  
+    } while (selection == 'Y' || selection == 'y');
+    std::cout << "\nProgram Terminating..." << std::endl;
 
-    } while (selection != 'q' && selection != 'Q');
-
-    cout << "\n[!] Program terminated" << endl;
-    cout << endl;
+    std::cout << std::endl;  
     return 0;
 }
