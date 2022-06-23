@@ -37,5 +37,8 @@ Everything to do with Controlling Program Flow in C++.
 ### Continue and Break Statements
 - [Continue and Break Statements - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/continueAndBreakStatements.cpp)
 
+### Nested Loops
+- [Nested Loops](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedLoops.cpp)
+
 ## Section Challanges
 - [Text Baby!](URL)
