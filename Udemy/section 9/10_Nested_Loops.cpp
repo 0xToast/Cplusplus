@@ -1,49 +1,46 @@
-// Section 9
-// Nested Loops 
+// Section 9 - Nested Loops
 
 #include <iostream>
 #include <vector>
 
-using namespace std;
+int main() {
 
-int main () {
-    
-    // Prints multiplication tables.
-    // Tip: The inner loop ticks faster than the outer loop. 
-    
-    for (int num1 {1}; num1 <=10; ++num1) {
-        for (int num2 {1}; num2 <=10; ++ num2) {
-            cout << num1 << "*" << num2 << "=" << num1 * num2 << endl;
+    // Basic  Example
+    for (int num1 {1}; num1 <= 10; ++num1){
+        for (int num2 {1}; num2 <= 10; ++num2){
+            std::cout << num1 << " * " << num2 << " = " << num1 * num2 << std::endl;
         }
-        cout << "----------" << endl; 
+    std::cout << "-------------" << std::endl;
     }
 
-    // Collect items from user to display histogram. 
-    int dataItems {};
+    // Histogram - Takes in user input a builds a histogram according to the users input.
+    int numItems{};
 
-    cout << "How many data items do you have? ";
-    cin >> dataItems;
+    std::cout << "\nHow many data items do you have? ";
+    std::cin >> numItems;
 
-    vector<int> data{};
+    std::vector<int> data{};
 
-    for (int i{1}; i <= dataItems; ++i) {
-        int item{};
-        cout << "Enter data item " << i << ": ";
-        cin >> item;
-        data.push_back(item);
+    for (int i{1}; i <= numItems; ++i){
+        int  dataItem{};
+        std::cout << "Enter data item " << i << ": ";
+        std::cin >> dataItem;
+        data.push_back(dataItem);
     }
 
-    cout << "\nPrinting Histogram: \n" << endl;
-    // ranged based loop - must go over again.
-    for (auto value: data) {
-        for (int i{1}; i <= value; ++i) {
-            if (i % 5 == 0)
-                cout  << "*";
-            cout << "-";
-        } 
-        cout << endl;
+    std::cout << "\nGenerating Histogram:" << std::endl;
+    std::cout << "=====================\n"<< std::endl;
+    
+    for (auto val : data) {
+        for (int i {1}; i <= val; ++i){
+            if (i % 5 == 0) // Every 5th item displays a star. (Makes histogram easier to read.)
+                std::cout << "*";
+            else
+                std::cout << "-";
+        }
+        std::cout << std::endl;
     }
 
-    cout << endl;
+    std::cout << std::endl;
     return 0;
 }
