@@ -50,7 +50,7 @@ int main() {
                 std::cout << "\n[!] Invalid selection - please try again." << std::endl;
         }
 
-    } while (selection != 'q' && selection != 'Q'); // Look this up some more, this is really hurting my brain.
+    } while (selection != 'q' && selection != 'Q'); // Look this up some more (short-curcuit), this is really hurting my brain.
                                                     // Another way to do it is like this:
                                                     // while !(selection == 'q' || selection == 'Q');
     std::cout << "\n[!] Program terminated..." << std::endl;
