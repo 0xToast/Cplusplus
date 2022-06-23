@@ -5,7 +5,8 @@ Everything to do with Controlling Program Flow in C++.
 - [if Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/ifStatements.cpp)
 - [if else Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/ifelseStatments.cpp)
 - [Nested if Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatements.cpp) *
-- [Nested if Statements - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) & [Course Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) *
+- [Nested if Statements - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) *
+- [Nested if Statements Course Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedIfStatementsCont.cpp) *
 - [Switch Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatement.cpp) 
 - [Switch Statements with Enumerations](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/switchStatementWithEnum.cpp) 
 - [Conditonal Operators - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/conditonalOperatorsBasicExampls.cpp) *
@@ -14,6 +15,8 @@ Everything to do with Controlling Program Flow in C++.
 - [For Loops - Complex](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopComplex.cpp) *
 - [Range Based For Loops](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/rangebaseForLoopBasics.cpp) *
 - [Range Based For Loops - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/rangeBasedForLoopsExercises.cpp) *
-- While Loops - [Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopBasics.cpp) [Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopsContinued.cpp) [Exercise](URL) *
+- [While Loop - Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopBasics.cpp) *
+- [While Loops - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopsContinued.cpp) *
+- [While Loops - Exercise](URL) *
 ## Section Challanges
 - [Text Baby!](URL)
