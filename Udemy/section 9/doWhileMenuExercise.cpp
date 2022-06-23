@@ -19,7 +19,7 @@ int main() {
         std::cout << "> "; 
         std::cin >> selection;
 
-        // Example 1 - IF ELSE Ladder 
+        // Example 1 - IF ELSE Ladder -- Comment out one before compiling
 
         if (selection == '1')
             std::cout << "\nOption 1 selected - Doing this..." << std::endl;
@@ -31,8 +31,28 @@ int main() {
             continue;
         else 
             std::cout << "\n[!] Invalid selection - please try again!" << std::endl;
+        
+        //Example 2 - Switch Example -- Comment out one before compiling
+                switch (selection) {
+            case '1':
+                std::cout << "\nOption 1 selected - Doing this..." << std::endl;
+                break;
+            case '2':
+                std::cout << "\nOption 2 selected - Doing that..." << std::endl;
+                break;
+            case '3':
+                std::cout << "\nOption 3 selected - Doing something else..." << std::endl;
+                break;
+            case 'q':
+            case 'Q':
+                break;
+            default:
+                std::cout << "\n[!] Invalid selection - please try again." << std::endl;
+        }
 
-    } while (selection != 'q' || selection != 'Q'); // Look this up some more, this is really hurting my brain.
+    } while (selection != 'q' && selection != 'Q'); // Look this up some more, this is really hurting my brain.
+                                                    // Another way to do it is like this:
+                                                    // while !(selection == 'q' || selection == 'Q');
     std::cout << "\n[!] Program terminated..." << std::endl;
     std::cout << std::endl;
     return 0;
