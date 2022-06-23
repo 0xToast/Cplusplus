@@ -14,5 +14,6 @@ Everything to do with Controlling Program Flow in C++.
 - [For Loops - Complex](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/forLoopComplex.cpp) *
 - [Range Based For Loops](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/rangebaseForLoopBasics.cpp) *
 - [Range Based For Loops - Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/rangeBasedForLoopsExercises.cpp) *
+- While Loops - [Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopBasics.cpp) [Continued](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/whileLoopsContinued.cpp) [Exercise](URL) *
 ## Section Challanges
 - [Text Baby!](URL)
