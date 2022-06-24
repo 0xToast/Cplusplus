@@ -44,4 +44,4 @@ Everything to do with Controlling Program Flow in C++.
 - [My Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/sectionChallengeMine.cpp)
 
 ## Challange Solution
-- [Instructor's solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/instructorsSolution.cpp)
+- [Instructor's Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/instructorsSolution.cpp)
