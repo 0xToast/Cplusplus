@@ -32,14 +32,15 @@ TO DO:
   https://www.codegrepper.com/code-examples/cpp/c%2B%2B+how+to+check+input+is+integer
 */
 
+// Section 9 - Section Challenge
+
 #include <iostream>
 #include <vector>
-#include <iomanip>
 
 int main() {
 
     char selection {};
-    std::vector<double> dataSet{};
+    std::vector<int> dataSet{};
 
     do {
 
@@ -114,19 +115,16 @@ int main() {
             case 'M':
             case 'm':
             {
-                double total{};
-                double average{};
+                int total{};
 
                 if (dataSet.size() == 0)
                     std::cout << "The list is currently empty, unable to complete calculation!" << std::endl;
                 else {
                     for (auto num : dataSet)
                         total += num; // total = total + num - adds all the numbers in the vector together using a range-based for loop.
-                
-                average = total / dataSet.size();
-                std::cout << std::fixed << std::setprecision(1); 
-                std::cout << "The average of numbers wihtin the list is: "<< average << std::endl; 
-
+                    
+                    // I used static_cast to change total to a double in order to display decimal points.
+                    std::cout << "The average of numbers wihtin the list is: " << static_cast<double>(total)/dataSet.size() << std::endl; 
                 }
             }
                 break;
