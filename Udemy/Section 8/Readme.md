@@ -11,7 +11,7 @@ Everything to do with Statements and Operators in C++.
 - [Logical Operators](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/logicalOperators.cpp) *
 - [Compound Assignment Operators](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/compoundAssigmentOperators.cpp) *
 
-## Section Challanges
+## Section Challange
 - [Cents Convertor - My solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%208/sectionChallengeMine1.cpp)
 
 ## Challange Solution
