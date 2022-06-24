@@ -17,8 +17,8 @@ int main() {
         std::cout << "A. Add a number to the list" << std::endl; // Added this to the top of the list to make it more intuitive
         std::cout << "P. Print list of numbers" << std::endl;
         std::cout << "M. Display mean of numbers" << std::endl;
-        std::cout << "S. Display the smallest number" << std::endl;
-        std::cout << "L. Display the largest number" << std::endl;
+        std::cout << "S. Display smallest number" << std::endl;
+        std::cout << "L. Display largest number" << std::endl;
         std::cout << "H. Print Memory Address of list" << std::endl;  // Added this just for funsies
         std::cout << "Q. Quit" << std::endl;
         std::cout << "+-------------------------------+" << std::endl;
