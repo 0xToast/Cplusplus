@@ -42,6 +42,7 @@ Everything to do with Controlling Program Flow in C++.
 
 ## Section Challange
 - [My Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/sectionChallengeMine.cpp)
+- [My Solution - Binary](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/Section9_Challange.exe)
 
 ## Challange Solution
 - [Instructor's solution - Part 1]()
