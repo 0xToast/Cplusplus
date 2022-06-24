@@ -45,3 +45,8 @@ Everything to do with Controlling Program Flow in C++.
 
 ## Challange Solution
 - [Instructor's Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/instructorsSolution.cpp)
+
+## Notes:
+
+Looking at the instructors code, its neat and easy to read. Mine is very complicated and I tried to get advanced. I need to stick to the K.I.S.S principle and must be afraid to use IF ElSE ladders.
+
