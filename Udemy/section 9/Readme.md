@@ -48,5 +48,5 @@ Everything to do with Controlling Program Flow in C++.
 
 ## Notes:
 
-Looking at the instructors code, its neat and easy to read. Mine is very complicated and I tried to get advanced. I need to stick to the K.I.S.S principle and must be afraid to use IF ElSE ladders.
+Looking at the instructors code, its neat and easy to read. Mine is very complicated and I tried to get too advanced. I need to stick to the K.I.S.S principle and must not be afraid to use IF ELSE ladders.
 
