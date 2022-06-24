@@ -27,6 +27,8 @@ TO DO:
   So far most of my attempts have failed. - I believe it is the way I am 
   checking char value as basic tests show that my algorithmn works 
 
+* Add a function that clears the vector of values.
+
   https://www.codegrepper.com/code-examples/cpp/c%2B%2B+how+to+check+input+is+integer
 */
 
@@ -70,6 +72,7 @@ int main() {
                      for (std::size_t i {0}; i < dataSet.size(); ++i)
                      std::cout << dataSet.at(i) << " ";
                      std::cout << "]";
+                     std::cout << std::endl;
                 }
             }
                 break;
@@ -83,7 +86,7 @@ int main() {
                 char cont{};
                         
                 while (!done) {
-                    std::cout << "Please enter a number add to the vector: ";
+                    std::cout << "Please enter a number add to the list: ";
                     std::cin >> num;
 
                     dataSet.push_back(num);
