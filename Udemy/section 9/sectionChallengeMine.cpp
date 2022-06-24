@@ -7,7 +7,7 @@ to select options from a menu to perform operations based on what they selected
 The program should do the following:
 P - Print numbers within the collection
 A - Add a number to the collection
-M - Display the mean of the mubers within the list
+M - Display the mean of the nubers within the list
 S - display the smallest number within the collection
 L - Display the largest number within the collection
 Q - Quit 
