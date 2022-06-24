@@ -1,5 +1,28 @@
 // Section 9 - Section Challenge
 
+/* 
+This challnage is about using a collection (list) of integers and allowing the user
+to select options from a menu to perform operations based on what they selected
+
+The program should do the following:
+P - Print numbers within the collection
+A - Add a number to the collection
+M - Display the mean of the mubers within the list
+S - display the smallest number within the collection
+L - Display the largest number within the collection
+Q - Quit 
+
+Another objective was to implement input validation within the menu screen.
+
+I took this a step further and added input validation into the all of the
+operations as well.
+
+TO DO:
+======
+* I need to add input validation to option A on the first input - So far most of 
+  my attempts have failed. 
+*/
+
 #include <iostream>
 #include <vector>
 #include <iomanip>
