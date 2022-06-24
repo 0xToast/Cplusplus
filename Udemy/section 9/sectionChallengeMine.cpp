@@ -19,8 +19,11 @@ operations as well.
 
 TO DO:
 ======
-* I need to add input validation to option A on the first input - So far most of 
-  my attempts have failed. 
+* I need to add input validation to option A on the first input on line 78 - 
+  So far most of my attempts have failed. - I believe it is the way I am 
+  checking char value as basic tests show that my algorithmn works 
+
+  https://www.codegrepper.com/code-examples/cpp/c%2B%2B+how+to+check+input+is+integer
 */
 
 #include <iostream>
