@@ -15,7 +15,11 @@ Q - Quit
 Another objective was to implement input validation within the menu screen.
 
 I took this a step further and added input validation into the all of the
-operations as well.
+operations as well, except for adding a number to the list function. 
+
+I also added a function that prints the memoery address where the vector is
+store. I want to use this program later to assess how the values are inputted
+in memory. 
 
 TO DO:
 ======
