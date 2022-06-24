@@ -61,13 +61,15 @@ int main() {
             case 'p':
             {
                 if (dataSet.size() == 0){
-                    std::cout << "The list is currently empty." << std::endl;
+                    std::cout << "[ ] - The list is currently empty." << std::endl;
                 }
                 else{
-                    // While trying to compile I got the warning for [-Wsign-compare], so I had to use std::size_t when declaring i within in the FOR loop
-                    // https://stackoverflow.com/questions/7984955/what-is-wrong-with-my-for-loops-i-get-warnings-comparison-between-signed-and-u
-                    for (std::size_t i {0}; i < dataSet.size(); ++i)
-                    std::cout << dataSet.at(i) << " ";
+                     // While trying to compile I got the warning for [-Wsign-compare], so I had to use std::size_t when declaring i within in the FOR loop
+                     // https://stackoverflow.com/questions/7984955/what-is-wrong-with-my-for-loops-i-get-warnings-comparison-between-signed-and-u
+                     std::cout << "[ ";  
+                     for (std::size_t i {0}; i < dataSet.size(); ++i)
+                     std::cout << dataSet.at(i) << " ";
+                     std::cout << "]";
                 }
             }
                 break;
