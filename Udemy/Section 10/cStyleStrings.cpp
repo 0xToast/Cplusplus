@@ -10,7 +10,6 @@ int main() {
     char firstName [20] {};
     char lastName [20] {};
     char fullName [50] {};
-    char temp [50] {};
 
     std::cout << firstName << std::endl; // Will likely display nothing or garbage
 
