@@ -49,8 +49,8 @@ int main() {
         std::cout << "A. Add a number to the list" << std::endl; // Added this to the top of the list to make it more intuitive
         std::cout << "P. Print list of numbers" << std::endl;
         std::cout << "M. Display mean of numbers" << std::endl;
-        std::cout << "S. Display smallest number" << std::endl;
-        std::cout << "L. Display largest number" << std::endl;
+        std::cout << "S. Display the smallest number" << std::endl;
+        std::cout << "L. Display the largest number" << std::endl;
         std::cout << "H. Print Memory Address of list" << std::endl;  // Added this just for funsies
         std::cout << "Q. Quit" << std::endl;
         std::cout << "+-------------------------------+" << std::endl;
@@ -66,13 +66,15 @@ int main() {
                     std::cout << "[ ] - The list is currently empty." << std::endl;
                 }
                 else{
-                     // While trying to compile I got the warning for [-Wsign-compare], so I had to use std::size_t when declaring i within in the FOR loop
-                     // https://stackoverflow.com/questions/7984955/what-is-wrong-with-my-for-loops-i-get-warnings-comparison-between-signed-and-u
-                     std::cout << "[ ";  
-                     for (std::size_t i {0}; i < dataSet.size(); ++i)
-                     std::cout << dataSet.at(i) << " ";
-                     std::cout << "]";
-                     std::cout << std::endl;
+                    // While trying to compile I got the warning for [-Wsign-compare], so I had to use std::size_t when delcaring i within in the FOR loop
+                    // https://stackoverflow.com/questions/7984955/what-is-wrong-with-my-for-loops-i-get-warnings-comparison-between-signed-and-u
+                    std::cout << "[ ";
+
+                    for (std::size_t i {0}; i < dataSet.size(); ++i)
+                    std::cout << dataSet.at(i) << " ";
+
+                    std::cout << "]";
+                    std::cout << std::endl;
                 }
             }
                 break;
@@ -86,12 +88,13 @@ int main() {
                 char cont{};
                         
                 while (!done) {
+
                     std::cout << "Please enter a number add to the list: ";
                     std::cin >> num;
 
                     dataSet.push_back(num);
                     std::cout << "\n" << num << " added to list." << std::endl;
-
+                    
                     std::cout << "\nDo you want to add another number to the list? (Y/N) ";
                     std::cin >> cont;
                     std::cout << std::endl;
@@ -101,7 +104,7 @@ int main() {
                     else if (cont == 'n'|| cont == 'N')
                             done = true;
                     else {
-                        std::cout << "[!] Invalid selection, returning to home screen...." << std::endl;
+                        std::cout << "[!] Invalid selection, returning to home screen..." << std::endl;
                         break;
                     }   
                 }
@@ -133,7 +136,7 @@ int main() {
                 if (dataSet.size() == 0)
                     std::cout << "The list is currently empty, there is no numbers to evaluate!" << std::endl;
                 else if (dataSet.size() == 1)
-                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the largest number." << std::endl;
+                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the highest number." << std::endl;
                 else {
                     // https://www.dcode.fr/minimum-list - I used this to figure out the algorithmn
                     int max = dataSet.at(0);
@@ -144,7 +147,7 @@ int main() {
                         else 
                             continue;
                     
-                    std::cout << "The largest number in the list is: " << max << std::endl;
+                    std::cout << "The highest number in the list is: " << max << std::endl;
                 }
             }
             break;  
@@ -154,7 +157,7 @@ int main() {
                 if (dataSet.size() == 0)
                     std::cout << "The list is currently empty, there is no numbers to evaluate!" << std::endl;
                 else if (dataSet.size() == 1)
-                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the smallest number." << std::endl;
+                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the lowest number." << std::endl;
                 else {
                     // https://www.dcode.fr/minimum-list - I used this to figure out the algorithmn
                     int min = dataSet.at(0);
@@ -165,7 +168,7 @@ int main() {
                         else 
                             continue;
                     
-                    std::cout << "The smallest number in the list is: " << min << std::endl;
+                    std::cout << "The lowest number in the list is: " << min << std::endl;
                 }
             }  
                 break;
