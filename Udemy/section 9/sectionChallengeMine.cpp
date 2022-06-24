@@ -98,7 +98,7 @@ int main() {
                 if (dataSet.size() == 0)
                     std::cout << "The list is currently empty, there is no numbers to evaluate!" << std::endl;
                 else if (dataSet.size() == 1)
-                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the highest number." << std::endl;
+                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the largest number." << std::endl;
                 else {
                     // https://www.dcode.fr/minimum-list - I used this to figure out the algorithmn
                     int max = dataSet.at(0);
@@ -109,7 +109,7 @@ int main() {
                         else 
                             continue;
                     
-                    std::cout << "The highest number in the list is: " << max << std::endl;
+                    std::cout << "The largest number in the list is: " << max << std::endl;
                 }
             }
             break;  
@@ -119,7 +119,7 @@ int main() {
                 if (dataSet.size() == 0)
                     std::cout << "The list is currently empty, there is no numbers to evaluate!" << std::endl;
                 else if (dataSet.size() == 1)
-                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the lowest number." << std::endl;
+                    std::cout << "There is only 1 number wihtin the list. Therefore, " << dataSet.at(0) << " is the smallest number." << std::endl;
                 else {
                     // https://www.dcode.fr/minimum-list - I used this to figure out the algorithmn
                     int min = dataSet.at(0);
@@ -130,7 +130,7 @@ int main() {
                         else 
                             continue;
                     
-                    std::cout << "The lowest number in the list is: " << min << std::endl;
+                    std::cout << "The smallest number in the list is: " << min << std::endl;
                 }
             }  
                 break;
