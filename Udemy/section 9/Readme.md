@@ -40,5 +40,8 @@ Everything to do with Controlling Program Flow in C++.
 ### Nested Loops
 - [Nested Loops](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/nestedLoops.cpp) *
 
-## Section Challanges
-- [Text Baby!](URL)
+## Section Challange
+- [My Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/section%209/sectionChallengeMine.cpp)
+
+## Challange Solution
+- [Instructor's solution - Part 1]()
