@@ -71,7 +71,8 @@ int main() {
                     // While trying to compile I got the warning for [-Wsign-compare], so I had to use std::size_t when delcaring i within in the FOR loop
                     // https://stackoverflow.com/questions/7984955/what-is-wrong-with-my-for-loops-i-get-warnings-comparison-between-signed-and-u
                     std::cout << "[ ";
-
+                    
+                    // I could have used a range base loop here but wanted to test my knowledge on interation.
                     for (std::size_t i {0}; i < dataSet.size(); ++i)
                     std::cout << dataSet.at(i) << " ";
 
@@ -124,7 +125,7 @@ int main() {
                     for (auto num : dataSet)
                         total += num; // total = total + num - adds all the numbers in the vector together using a range-based for loop.
                     
-                    // I used static_cast to change total to a double in order to display decimal points.
+                    // I used static_cast to change total to a double in order to display decimal points in the final calculation.
                     std::cout << "The average of numbers wihtin the list is: " << static_cast<double>(total)/dataSet.size() << std::endl; 
                 }
             }
