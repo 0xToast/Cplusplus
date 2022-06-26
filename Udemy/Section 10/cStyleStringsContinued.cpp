@@ -22,7 +22,7 @@ int main() {
     std::cout << "----------------------" << std::endl;
     strcpy(temp, fullName);
     
-    // strcmp(), if same = 0 (true) / However it will return a differnt number if they are not
+    // strcmp(), if same = 0 (true) / However it will return a differnt number if they are not (1 or -1)
     if (strcmp(temp, fullName) == 0)
         std::cout << temp << " and " << fullName << " are the same" << std::endl; 
     else 
@@ -32,7 +32,7 @@ int main() {
 
     // Remember strlen() returns values that are of size_t and not integers
     // Also, strings are basically arrays, thus we need to use arrary syntax when using c-stle strings
-    for(size_t i {0}; i < strlen(fullName); ++i) {
+    for (size_t i {0}; i < strlen(fullName); ++i) {
         if(isalpha(fullName[i]))
             fullName[i] = toupper(fullName[i]);
     }
@@ -40,7 +40,7 @@ int main() {
 
     std::cout << "----------------------" << std::endl;
 
-    if(strcmp(temp, fullName) == 0)
+    if (strcmp(temp, fullName) == 0)
         std::cout << temp << " and " << fullName << " are the same" << std::endl;
     else
         std::cout << temp << " and " << fullName << " are not the same" << std::endl;
