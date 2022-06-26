@@ -46,8 +46,8 @@ int main() {
         std::cout << temp << " and " << fullName << " are not the same" << std::endl;
 
     std::cout << "----------------------" << std::endl;
-    std::cout << "Result of comparing " << temp << " to " << fullName << ": " << strcmp(temp, fullName) << std::endl;
-    std::cout << "Result of comparing " << fullName << " to " << temp << ": " << strcmp(fullName, temp) << std::endl;
+    std::cout << "Result of comparing " << temp << " to " << fullName << ": " << strcmp(temp, fullName) << std::endl; // 1
+    std::cout << "Result of comparing " << fullName << " to " << temp << ": " << strcmp(fullName, temp) << std::endl; // -1
 
     return 0;
 }
