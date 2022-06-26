@@ -13,7 +13,7 @@ int main() {
     // std::cout << "Enter your full name: ";
     // std::cin >> fullName;
 
-    // std::cout << "Your full name is " << fullName << std::endl; // The output will cut off from the space inbetween your first and last name.
+    // std::cout << "Your full name is " << fullName << std::endl; // The output will cut off from the white space inbetween your first and last name. DONT USE "cin" if text includes white spaces
 
     std::cout << "Enter your full name again: ";
     std::cin.getline(fullName, 50); // Use cin.getline() method to include white spaces
