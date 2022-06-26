@@ -36,7 +36,7 @@ int main() {
         if(isalpha(fullName[i]))
             fullName[i] = toupper(fullName[i]);
     }
-    std::cout << "Your full name is " << fullName << std::endl;
+    std::cout << "Your full name in uppercase is " << fullName << std::endl;
 
     std::cout << "----------------------" << std::endl;
 
