@@ -20,6 +20,7 @@ int main() {
     std::cout << "\n===========================";
 
     std::string message {};
+    
     std::cout << "\n\nPlease enter your secret message: ";
     std::getline(std::cin, message); 
 
@@ -39,7 +40,7 @@ int main() {
     std::cout << "\n===========================";
     
     std::string encodedMessage {};
-
+    
     std::cout << "\n\nPlease enter encoded message: ";
     std::getline(std::cin, encodedMessage); 
 
