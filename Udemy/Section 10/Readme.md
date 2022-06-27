@@ -15,8 +15,4 @@ Everything to do with Characters and Strings in C++.
 - [Subsitution Cipher Encoder/Decoder - My Attempt](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/subsitutionCipherChallenge.cpp)
 
 ## Challange Solution
-- [Text Baby!]()
-
-## Notes:
-
-To be added...
+- [Subsitution Cipher Encoder Decoder - Instructor's Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/subsitutionCipherChallenge.cpp)
