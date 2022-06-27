@@ -12,7 +12,7 @@ Everything to do with Characters and Strings in C++.
 - [C++ Strings - Exercise 2](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/cPlusPlusStringsExercises2.cpp)
 
 ## Section Challange
-- [Text Baby!]()
+- [Subsitution Cipher Encoder/Decoder - My Attempt](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/subsitutionCipherChallenge.cpp)
 
 ## Challange Solution
 - [Text Baby!]()
