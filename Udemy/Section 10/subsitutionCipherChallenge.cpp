@@ -25,6 +25,7 @@ int main() {
     std::getline(std::cin, message); 
 
         for (size_t i {0}; i < message.size() ; ++i)
+            // Should have used std::string::nopos here 
             if (isalpha(message.at(i))){
                 size_t position {0};
                 position = alphabet.find(message.at(i)); // 
