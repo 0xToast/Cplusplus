@@ -1,5 +1,12 @@
 // Section 10 - Challenge - Substitution Cipher
 
+/* 
+
+My challange in this section was to take a sentence/string inputted by the user and apply a cipher to the text.
+
+I also had to provide funtionality that decoded the text back to it's orgininal state.
+
+*/
 
 
 #include <iostream>
