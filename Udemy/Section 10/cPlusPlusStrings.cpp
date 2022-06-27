@@ -1,7 +1,7 @@
 // Section 10 - Working with C++ strings
 
 #include <iostream>
-#include <string> // Need to incluse the string library when using C++ library
+#include <string> // Need to include the string library when using C++ strings
 
 int main() {
 
