@@ -7,3 +7,4 @@ This repo contains all the code written to learn C++/
 - [Section 8 - Statements and Operators](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%208)
 - [Section 9 - Controlling Program Flow](https://github.com/0xToast/Cplusplus/tree/main/Udemy/section%209)
 - [Section 10 - Characters and Strings](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%2010)
+- [Section 11 - Functions](https://github.com/0xToast/Cplusplus/tree/main/Udemy/Section%2011)
