@@ -1,4 +1,4 @@
-// Section 11 - What is a function? - Random Number Generator
+// Section 11 - What is a function? - cstdlib
 
 #include <iostream>
 #include <cstdlib> // Required for rand() function
