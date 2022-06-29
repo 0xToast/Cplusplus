@@ -18,7 +18,7 @@ Everything to do with Functions in C++.
 - []()
 
 ## Section Challange
-- [Subsitution Cipher Encoder/Decoder - My Attempt](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/subsitutionCipherChallenge.cpp)
+- []()
 
 ## Challange Solution
-- [Subsitution Cipher Encoder Decoder - Instructor's Solution](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2010/instructorsSolution.cpp)
+- []()
