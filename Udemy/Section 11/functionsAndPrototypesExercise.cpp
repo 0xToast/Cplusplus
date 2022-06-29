@@ -35,7 +35,6 @@ int main (){
 }
 
 // Function Definitions 
-
 double fahrenheitToCelsius (double temp){
     return round((5.0/9.0)*(temp - 32)); // Calculation to convert F to C
 }
