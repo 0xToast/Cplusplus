@@ -8,7 +8,6 @@ double calculateArea (double);
 double calculateArea (double, double);
 
 // Function Definitions
-
 double calculateArea (double x){                // Calculate area of square
     std::cout
         << "The area of the square is: ";
