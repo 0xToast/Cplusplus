@@ -21,7 +21,6 @@ double calculateArea (double x, double y){      // Calculate area of rectangle
 }
 
 int main (){
-    
   std::cout
         << calculateArea(27, 45);
     
