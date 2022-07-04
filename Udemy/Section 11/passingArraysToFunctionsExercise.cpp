@@ -7,7 +7,6 @@ I would then need to clear the event list when the event was over.
 
 #include <iostream>
 #include <string>
-//#include <typeinfo>
 
 std::string printGuestList(const std::string[], size_t);
 void clearGuestList(std::string[], size_t);
@@ -16,7 +15,7 @@ std::string printGuestList(const std::string guest_list[], size_t guest_list_siz
     for (size_t i{0}; i < guest_list_size; i++)
         std::cout 
             << guest_list[i] << "\n";          
-    return typeid(guest_list).name();
+    return typeid(guest_list).name(); // I need to look into this method. Not entirely sure what it is doing.
 }
 
 void clearGuestList(std::string guest_list[], size_t guest_list_size) {
