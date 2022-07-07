@@ -29,6 +29,11 @@ Everything to do with Functions in C++.
 - [Passing Arrarys to Functions](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingArraysToFunctions.cpp)
 - [Passing Arrarys to Functions Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingArraysToFunctionsExercise.cpp)
 
+### Pass-By-Reference
+- [Passing-By-Reference Basics](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingByReferenceBasics.cpp)
+- [Passing-By-Reference Vectors](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingByReferenceVectors.cpp)
+- [Passing-By-Reference Exercises](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingByReferenceExercises.cpp)
+
 ## Section Challange
 - []()
 
