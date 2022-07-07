@@ -16,7 +16,7 @@ Everything to do with Functions in C++.
 
 ### Function Parameters and Return Statements
 - [Function Parameters and Return Statements](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/functionParametersAndReturnStatements.cpp)
-- [Function and Prototypes Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/functionsAndPrototypesExercise.cpp)
+- [Function and Prototypes Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/functionsAndPrototypesExercise.cpp) - Also has pass-by-value examples
 
 ### Default Argument Values
 - [Defining Default Argument Values](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/defaultArgumentValues.cpp)
