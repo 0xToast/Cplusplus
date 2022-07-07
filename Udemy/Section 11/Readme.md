@@ -25,6 +25,10 @@ Everything to do with Functions in C++.
 - [Overloading Functions](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/overLoadingFunctions.cpp)
 - [Overloading Functions Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/overloadingFunctionsExercise.cpp)
 
+### Passing Arrarys to Functions 
+- [Passing Arrarys to Functions](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingArraysToFunctions.cpp)
+- [Passing Arrarys to Functions Exercise](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingArraysToFunctionsExercise.cpp)
+
 ## Section Challange
 - []()
 
