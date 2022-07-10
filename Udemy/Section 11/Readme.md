@@ -34,6 +34,9 @@ Everything to do with Functions in C++.
 - [Passing-By-Reference Vectors](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingByReferenceVectors.cpp)
 - [Passing-By-Reference Exercises](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/passingByReferenceExercises.cpp)
 
+### Scope Rules / Static Variables
+- [Scope Rules - Static Variables](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/scopeRules.cpp)
+
 ## Section Challange
 - []()
 
