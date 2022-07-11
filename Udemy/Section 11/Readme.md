@@ -37,7 +37,7 @@ Everything to do with Functions in C++.
 ### Scope Rules / Static Variables
 - [Scope Rules - Static Variables](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/scopeRules.cpp)
 
-### How Fucnction Calls Work 
+### How Function Calls Work 
 - [How Function Calls Work in Memory](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/functionsAndStack.cpp)
 
 ## Section Challange
