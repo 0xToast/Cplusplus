@@ -40,6 +40,9 @@ Everything to do with Functions in C++.
 ### How Function Calls Work 
 - [How Function Calls Work in Memory](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/functionsAndStack.cpp)
 
+### Recursive Functions
+- [Recursive Functions](https://github.com/0xToast/Cplusplus/blob/main/Udemy/Section%2011/recursiveFunctions.cpp)
+
 ## Section Challange
 - []()
 
