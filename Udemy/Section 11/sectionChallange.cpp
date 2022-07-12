@@ -9,7 +9,6 @@ New features:
 
 1) Sanitised user input, to remove the need to inlcude lowercase char variants as well.
 2) Added in the ability for users to clear the list of numbers.
-
 */
 
 #include <iostream>
