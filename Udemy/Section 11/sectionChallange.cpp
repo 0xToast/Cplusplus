@@ -119,9 +119,11 @@ void displayList(const std::vector<int> &list) {
     else {
         std::cout
             << "\n[ ";
+        
         for (auto i : list)
             std::cout
             << i << " ";
+        
         std::cout
             << "]";
     }
@@ -166,9 +168,11 @@ void calcSmallestNum(const std::vector<int>& list) {
     }
     else {
         int smallest = list.at(0);
+        
         for (auto num : list)
             if (num < smallest)
                 smallest = num;
+        
         std::cout 
             << "\nThe smallest number is: " << smallest 
             << "\n";
@@ -183,9 +187,11 @@ void calcLargestNum(const std::vector<int>& list) {
     }
     else {
         int largest= list.at(0);
+        
         for (auto num : list)
             if (num > largest)
                 largest = num;
+        
         std::cout
             << "The largest number is: " << largest 
             << "\n";
